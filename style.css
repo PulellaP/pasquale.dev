@@ -25,6 +25,15 @@ ul {
   list-style-type: none;
 }
 
+.navbar {
+  background-color: white;
+}
+
+.divider {
+  width: 80vw;
+  height: 20vh;
+}
+
 .nav {
   display: inline-block;
 }
@@ -37,8 +46,8 @@ img.enlarge {
 
 img.enlarge:hover,
 img.enlarge:focus {
-  height: 12%;
-  width: 12%;
+  height: 150em;
+  width: 150em;
   transition-duration: 1000ms;
   transition-timing-function: ease;
 }
