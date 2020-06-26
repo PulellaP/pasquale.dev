@@ -38,6 +38,10 @@ ul {
   display: inline-block;
 }
 
+img {
+  image-orientation: from-image;
+}
+
 img.enlarge {
   transition-property: height, width;
   transition-duration: 1000ms;
