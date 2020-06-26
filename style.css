@@ -1,0 +1,48 @@
+h1 {
+    font-family: 'Marck Script', cursive;
+}
+
+.backgroundify {
+  background-image: url('images/star.png');
+  background-repeat: repeat;
+  background-size: 3% 3%;
+}
+
+
+.footer {
+
+
+  width: 100%;
+  background-color: Black;
+  color: White;
+}
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav {
+  display: inline-block;
+}
+
+img.enlarge {
+  transition-property: height, width;
+  transition-duration: 1000ms;
+  transition-timing-function: ease;
+}
+
+img.enlarge:hover,
+img.enlarge:focus {
+  height: 12%;
+  width: 12%;
+  transition-duration: 1000ms;
+  transition-timing-function: ease;
+}
+
+.footer {
+    box-shadow: 0 50vh 0 50vh #000;
+}
