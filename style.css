@@ -1,24 +1,51 @@
 h1 {
-    font-family: 'Marck Script', cursive;
+    font-family: 'Modak', cursive;
+    font-size: 4vw;
+    color: rgb(252, 120, 120);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-.backgroundify {
-  background-image: url('images/star.png');
-  background-repeat: repeat;
-  background-size: 3% 3%;
+.header {
+  background-image: linear-gradient(to bottom, aqua, rgb(118, 252, 196));
+  background-size: contain;
+  height: 40vh;
 }
 
+.main-div {
+  background-image: linear-gradient(to bottom, rgb(118, 252, 196), aqua);
+}
+
+.heading-text {
+  margin: auto;
+  padding: 20vh 20vh;
+}
+
+.header-contents {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.pre-footer {
+  background-image: linear-gradient(to bottom, aqua, black);
+}
 
 .footer {
-
-
   width: 100%;
   background-color: Black;
   color: White;
 }
 
+html {
+  background-image: url('images/20171208_152351.jpg');
+  filter: opacity(90%);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 p {
   font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 3vw;
 }
 
 ul {
@@ -56,6 +83,37 @@ img.enlarge:focus {
   transition-timing-function: ease;
 }
 
+.profile_image {
+  height: 40%;
+  width: 20%;
+}
+
 .footer {
     box-shadow: 0 50vh 0 50vh #000;
+}
+
+@media (min-width: 600px) {
+  p {
+    font-size: 1.5vw;
+  }
+
+  h1 {
+    font-size: 3vw;
+  }
+
+  html {
+    background-size: cover;
+  }
+
+  .profile_image {
+    height: 20%;
+    width: 10%;
+  }
+}
+
+@media (max-width: 559px) {
+  html {
+    background-attachment: fixed;
+    background-size: cover;
+  }
 }
