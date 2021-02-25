@@ -6,12 +6,12 @@ h1 {
 
 .header h1 {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 4vw;
-  color: white;
+  font-size: 3vw;
+  color: black;
 }
 
 .header {
-  background-color: black;
+  background-color: rgb(241, 241, 241);
   background-size: contain;
   height: 40vh;
 }
@@ -55,7 +55,7 @@ ul {
 }
 
 .navbar {
-  background-color: white;
+  background-color: rgb(241, 241, 241);
 }
 
 .divider {
