@@ -1,12 +1,17 @@
 h1 {
-    font-family: 'Modak', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 4vw;
-    color: rgb(252, 120, 120);
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: black;
+}
+
+.header h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 4vw;
+  color: white;
 }
 
 .header {
-  background-image: linear-gradient(to bottom, aqua, rgb(118, 252, 196));
+  background-color: black;
   background-size: contain;
   height: 40vh;
 }
@@ -37,10 +42,7 @@ h1 {
 }
 
 html {
-  background-image: url('images/20171208_152351.jpg');
-  filter: opacity(90%);
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-color:rgb(246, 255, 251)
 }
 
 p {
