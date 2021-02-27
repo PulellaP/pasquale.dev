@@ -1,0 +1,7 @@
+<a href="https://www.linkedin.com/in/pasquale-pulella-b20630164/" class="navbar-brand text-center" style="z-index:1">
+  <img src="https://www.svgrepo.com/show/58271/linkedin.svg" width="30em" height="30em">
+</a>
+
+<a href="#" class="navbar-brand text-center" style="z-index:1">
+  <img src="images/ericlemerdy_laptop_1.svg" alt="laptop" width="60" height="60">
+</a>

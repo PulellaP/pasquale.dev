@@ -17,7 +17,7 @@ h1 {
 }
 
 .main-div {
-  background-image: linear-gradient(to bottom, rgb(118, 252, 196), aqua);
+  background-image: url("images/moroccan-flower.png");
 }
 
 .heading-text {
@@ -31,6 +31,12 @@ h1 {
   top: 0;
 }
 
+.carousel-item {
+  height: 32rem;
+  background-color:white
+}
+
+
 .pre-footer {
   background-image: linear-gradient(to bottom, aqua, black);
 }
@@ -42,7 +48,7 @@ h1 {
 }
 
 html {
-  background-color:rgb(246, 255, 251)
+  background-image: url("images/moroccan-flower.png");
 }
 
 p {
@@ -55,7 +61,12 @@ ul {
 }
 
 .navbar {
-  background-color: rgb(241, 241, 241);
+  border-bottom: 1px solid;
+  border-color: black;
+}
+
+.thicker-border {
+  border-width: 3px !important;
 }
 
 .divider {
@@ -71,36 +82,19 @@ img {
   image-orientation: from-image;
 }
 
-img.enlarge {
-  transition-property: height, width;
-  transition-duration: 1000ms;
-  transition-timing-function: ease;
-}
-
-img.enlarge:hover,
-img.enlarge:focus {
-  height: 150em;
-  width: 150em;
-  transition-duration: 1000ms;
-  transition-timing-function: ease;
-}
-
-.profile_image {
-  height: 40%;
-  width: 20%;
-}
-
 .footer {
     box-shadow: 0 50vh 0 50vh #000;
 }
 
-@media (min-width: 600px) {
+/* Phones and smaller */
+
+@media screen and (max-width: 640px) {
   p {
-    font-size: 1.5vw;
+    font-size: 3vw;
   }
 
   h1 {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 
   html {
@@ -108,14 +102,73 @@ img.enlarge:focus {
   }
 
   .profile_image {
-    height: 20%;
-    width: 10%;
+    height: 40%;
+    width: 20%;
   }
+
+  .navbar-margin-adjuster {
+    margin-top: 10vh;
+  }
+
+  .dropdown-text {
+    font-size: 4vw;
+  }
+
 }
 
-@media (max-width: 559px) {
+/* Tablets */
+
+@media screen and (min-width: 641px),
+       screen and (max-width: 1007px) {
   html {
     background-attachment: fixed;
     background-size: cover;
+  }
+
+  p {
+    font-size: 2vw;
+  }
+
+  h1 {
+    font-size: 3vw;
+  }
+
+  .profile_image {
+    height: 40%;
+    width: 20%;
+  }
+
+  .dropdown-text {
+    font-size: 3vw;
+  }
+
+}
+
+/* Pc's and larger */
+
+@media screen and (min-width: 1008px) {
+  p {
+    font-size: 2vw;
+  }
+
+  .python-header-icon {
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    height: 35vh;
+  }
+  
+  .html-header-icon {
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    height: 35vh;
+  }
+
+  .profile_image {
+    height: 20%;
+    width: 10%;
+  }
+
+  .dropdown-text {
+    font-size: 1vw;
   }
 }
