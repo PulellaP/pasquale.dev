@@ -31,9 +31,9 @@ h1 {
   top: 0;
 }
 
-.carousel-item {
-  height: 32rem;
-  background-color:white
+.home-icon {
+  font-family: 'Dancing Script', cursive;
+  font-size: 6vw;
 }
 
 
@@ -170,5 +170,9 @@ img {
 
   .dropdown-text {
     font-size: 1vw;
+  }
+
+  .home-icon {
+    font-size: 2vw;
   }
 }
