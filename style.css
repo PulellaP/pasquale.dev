@@ -99,7 +99,7 @@ img {
   .profile_image {
     height: 40%;
     width: 20%;
-    margin-top: 45%;
+    margin-top: 45% !important;
   }
 
   .navbar-margin-adjuster {
@@ -144,6 +144,7 @@ img {
   .profile_image {
     height: 40%;
     width: 20%;
+    margin-top: 30%;
   }
 
   .dropdown-text {
@@ -190,7 +191,7 @@ img {
   .profile_image {
     height: 20%;
     width: 10%;
-    margin-top: 5%;
+    margin-top: 10%;
   }
 
   .dropdown-text {
