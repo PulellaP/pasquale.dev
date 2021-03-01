@@ -4,12 +4,6 @@ h1 {
     color: black;
 }
 
-.header h1 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 3vw;
-  color: black;
-}
-
 .header {
   background-color: rgb(241, 241, 241);
   background-size: contain;
@@ -36,6 +30,11 @@ h1 {
   font-size: 6vw;
 }
 
+.contact-button {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
 
 .pre-footer {
   background-image: linear-gradient(to bottom, aqua, black);
@@ -45,10 +44,6 @@ h1 {
   width: 100%;
   background-color: Black;
   color: White;
-}
-
-html {
-  background-image: url("images/moroccan-flower.png");
 }
 
 p {
@@ -114,6 +109,17 @@ img {
     font-size: 4vw !important;
   }
 
+  .default-margin {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .contact-email {
+    margin-top: 60%;
+    margin-bottom: 90%;
+    font-size: 10vw;
+  }
+
 }
 
 /* Tablets */
@@ -140,6 +146,22 @@ img {
 
   .dropdown-text {
     font-size: 3vw;
+  }
+
+  .navbar-margin-adjuster {
+    margin-top: 10vh;
+  }
+
+  .default-margin {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+
+  .contact-email {
+    margin-top: 50%;
+    margin-bottom: 90%;
+    font-size: 10vw;
   }
 
 }
@@ -172,7 +194,28 @@ img {
     font-size: 1vw;
   }
 
+  .navbar-margin-adjuster {
+    margin-top: 10vh;
+  }
+
   .home-icon {
     font-size: 2vw;
+  }
+
+  .default-margin {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .contact-email {
+    margin-top: 10%;
+    margin-bottom: 90%;
+    font-size: 10vw;
+  }
+
+  .contact-button {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 20px;
   }
 }
