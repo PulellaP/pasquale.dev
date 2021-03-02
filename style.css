@@ -46,6 +46,10 @@ h1 {
   color: White;
 }
 
+.custom-nav-button {
+  color: black !important; 
+}
+
 p {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 3vw;
