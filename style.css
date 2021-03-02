@@ -49,6 +49,7 @@ h1 {
 p {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 3vw;
+  color: black;
 }
 
 ul {
@@ -79,6 +80,7 @@ img {
 
 .footer {
     box-shadow: 0 50vh 0 50vh #000;
+    color: white;
 }
 
 /* Phones and smaller */
@@ -86,7 +88,6 @@ img {
 @media screen and (max-width: 640px) {
   p {
     font-size: 3vw;
-    color: black;
   }
 
   h1 {
